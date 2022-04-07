@@ -2,7 +2,7 @@ name: Blackduck
 
 on:
   schedule:
-    - cron: '56 11 * * THU'
+    - cron: ' 59 11 * * THU'
 jobs:
   blackduck:
     name: 'Blackduck'
