@@ -1,0 +1,13 @@
+name: Blackduck
+
+on:
+  schedule:
+    - cron: '53 11 * * THU'
+jobs:
+  blackduck:
+    name: 'Blackduck'
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Run the data
+        run: echo "hELLO"
